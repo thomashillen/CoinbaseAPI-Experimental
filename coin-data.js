@@ -57,3 +57,5 @@ accessData = async () => {
 
   document.querySelector('button').addEventListener('click', accessData);
   document.querySelector('#weather').addEventListener('click', accessWeatherData);
+
+  const input = document.querySelector("input");
